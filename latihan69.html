@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sinopsis</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      padding: 20px;
+    }
+
+    .book-container {
+      display: flex;
+      max-width: 800px;
+      margin: auto;
+      background-color: BlanchedAlmond;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .book-image {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .book-image img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .book-details {
+      flex: 2;
+      padding: 20px;
+    }
+
+    .book-details h2 {
+      margin-top: 0;
+      color: #333;
+    }
+
+    .book-details p {
+      margin: 5px 0;
+      line-height: 1.5;
+      color: #444;
+    }
+
+    .price {
+      color: #0033cc;
+      font-weight: bold;
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    .sinopsis {
+      margin-top: 15px;
+      text-align: justify;
+    }
+
+    .sinopsis h3 {
+      color: #0033cc;
+      margin-bottom: 20px;
+    }
+
+    .sinopsis p {
+      text-align: justify;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #0033cc;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+
+    .btn:hover {
+      background-color: #001f99;
+    }
+
+    @media (max-width: 768px) {
+      .book-container {
+        flex-direction: column;
+      }
+
+      .book-image,
+      .book-details {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="book-container">
+  <div class="book-image">
+    <img src="dikbud.jpg" alt="Buku" width="800" height="400">
+  </div>
+  <div class="book-details">
+    <h2>Majalah DIKBUD  "Membeli Masa Depan dengan Harga Sekarang</h2>
+    <p><strong>Pengarang:</strong>Tim Redaksi Majalah DIKBUD</p>
+    <p><strong>Penerbit:</strong>Kementerian Pendidikan dan Kebudayaan Republik Indonesia    </p>
+    <p><strong>Jumlah Halaman:</strong> 44 halaman</p>
+    <p class="price">Rp35.000</p>
+
+    <div class="sinopsis">
+      <h3>Sinopsis</h3>
+      <p>Nomor 7  mendatar:Pendidikan; Program Pemerintah.Enam Huruf:D-I-K-B-U-B.</p>
+      <p>Majalah ini mengangkat pentingnya pendidikan sebagai investasi masa depan. Lewat kisah siswa, kebijakan pemerintah, dan program pendidikan, majalah ini menyoroti bagaimana akses terhadap pendidikan membuka jalan untuk masa depan yang lebih baik.</p>
+      
+    </div>
+
+    <a href="#" class="btn">Beli Sekarang</a>
+  </div>
+</div>
+
+</body>
+</html>

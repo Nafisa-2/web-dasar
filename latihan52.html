@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sinopsis</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      padding: 20px;
+    }
+
+    .book-container {
+      display: flex;
+      max-width: 800px;
+      margin: auto;
+      background-color: BlanchedAlmond;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .book-image {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .book-image img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .book-details {
+      flex: 2;
+      padding: 20px;
+    }
+
+    .book-details h2 {
+      margin-top: 0;
+      color: #333;
+    }
+
+    .book-details p {
+      margin: 5px 0;
+      line-height: 1.5;
+      color: #444;
+    }
+
+    .price {
+      color: #0033cc;
+      font-weight: bold;
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    .sinopsis {
+      margin-top: 15px;
+      text-align: justify;
+    }
+
+    .sinopsis h3 {
+      color: #0033cc;
+      margin-bottom: 20px;
+    }
+
+    .sinopsis p {
+      text-align: justify;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #0033cc;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+
+    .btn:hover {
+      background-color: #001f99;
+    }
+
+    @media (max-width: 768px) {
+      .book-container {
+        flex-direction: column;
+      }
+
+      .book-image,
+      .book-details {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="book-container">
+  <div class="book-image">
+    <img src="mieayam.jpg" alt="Buku" width="300" height="400">
+  </div>
+  <div class="book-details">
+    <h2>Seporsi Mie Ayam Sebelum Mati</h2>
+    <p><strong>Pengarang:</strong> Brian Khrisna</p>
+    <p><strong>Penerbit:</strong> Gramedia Widiasarana</p>
+    <p><strong>Jumlah Halaman:</strong> 210 Halaman</p>
+    <p class="price">Rp80.000</p>
+
+    <div class="sinopsis">
+      <h3>Sinopsis</h3>
+      <p>Nomor 4 mendatar:Penerimaan Diri; Kesehatan Mental. Dua Puluh Lima huruf: S-E-P-O-R-S-I-M-I-E-A-Y-A-M-S-E-B-E-L-U-M-M-A-T-I.</p>
+      <p>Novel ini menceritakan Ale, pria berusia 37 tahun dengan tubuh besar dan masalah sosial seperti bau badan dan perundungan. Ale mengalami depresi akut akibat perlakuan buruk dari lingkungan dan keluarganya, hingga memutuskan untuk mengakhiri hidupnya dengan menelan obat antidepresan sekaligus. </p>
+      <p>Namun sebelum mati, Ale ingin menikmati seporsi mie ayam langganannya sebagai perpisahan terakhir. Saat hendak membeli mie ayam itu, warung langganannya tutup, sehingga rencana kematiannya tertunda. Dalam perjalanan hidupnya yang tak terduga ini, Ale justru dipaksa melihat dunia dari perspektif yang berbeda, bertemu dengan berbagai orang yang selama ini tak pernah ia kenal, dan mulai merasakan bahwa hidupnya masih berarti. </p>
+    </div>
+
+    <a href="#" class="btn">Beli Sekarang</a>
+  </div>
+</div>
+
+</body>
+</html>

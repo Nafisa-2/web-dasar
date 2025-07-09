@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sinopsis</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      padding: 20px;
+    }
+
+    .book-container {
+      display: flex;
+      max-width: 800px;
+      margin: auto;
+      background-color: BlanchedAlmond;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .book-image {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .book-image img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .book-details {
+      flex: 2;
+      padding: 20px;
+    }
+
+    .book-details h2 {
+      margin-top: 0;
+      color: #333;
+    }
+
+    .book-details p {
+      margin: 5px 0;
+      line-height: 1.5;
+      color: #444;
+    }
+
+    .price {
+      color: #0033cc;
+      font-weight: bold;
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    .sinopsis {
+      margin-top: 15px;
+      text-align: justify;
+    }
+
+    .sinopsis h3 {
+      color: #0033cc;
+      margin-bottom: 20px;
+    }
+
+    .sinopsis p {
+      text-align: justify;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #0033cc;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+
+    .btn:hover {
+      background-color: #001f99;
+    }
+
+    @media (max-width: 768px) {
+      .book-container {
+        flex-direction: column;
+      }
+
+      .book-image,
+      .book-details {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="book-container">
+  <div class="book-image">
+    <img src="wingit.jpg" alt="Buku" width="800" height="400">
+  </div>
+  <div class="book-details">
+    <h2>Wingit</h2>
+    <p><strong>Pengarang:</strong> Sara Wijayanto</p>
+    <p><strong>Penerbit:</strong> Elex Media Komputindo</p>
+    <p><strong>Jumlah Halaman:</strong> 256 halaman</p>
+    <p class="price">Rp100.000</p>
+
+    <div class="sinopsis">
+      <h3>Sinopsis</h3>
+      <p>Nomor 6 mendatar: Horor; Pengalaman Pribadi.Enam huruf:W-I-N-G-I-T.</p>
+      <p>“Wingit” adalah antologi kisah mistis yang disusun berdasarkan pengalaman Sara Wijayanto—seorang content creator dan naravlogger horor—dalam menjelajahi tempat-tempat angker. Terdiri dari tujuh cerita dengan latar kompleks perumahan terbengkalai di Jakarta Timur. Di sanalah ia bertemu tujuh sosok arwah perempuan yang masing-masing memiliki kisah hidup penuh tragedi dan penyesalan . </p>
+      <p>Meskipun judulnya seram, alur dalam buku ini lebih bernuansa reflektif dan emosional, dengan fokus pada sisi kemanusiaan dan faktor psikologis, bukan hanya sensasi horor. </p>
+    </div>
+
+    <a href="#" class="btn">Beli Sekarang</a>
+  </div>
+</div>
+
+</body>
+</html>

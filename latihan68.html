@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sinopsis</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      padding: 20px;
+    }
+
+    .book-container {
+      display: flex;
+      max-width: 800px;
+      margin: auto;
+      background-color: BlanchedAlmond;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .book-image {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .book-image img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .book-details {
+      flex: 2;
+      padding: 20px;
+    }
+
+    .book-details h2 {
+      margin-top: 0;
+      color: #333;
+    }
+
+    .book-details p {
+      margin: 5px 0;
+      line-height: 1.5;
+      color: #444;
+    }
+
+    .price {
+      color: #0033cc;
+      font-weight: bold;
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    .sinopsis {
+      margin-top: 15px;
+      text-align: justify;
+    }
+
+    .sinopsis h3 {
+      color: #0033cc;
+      margin-bottom: 20px;
+    }
+
+    .sinopsis p {
+      text-align: justify;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #0033cc;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+
+    .btn:hover {
+      background-color: #001f99;
+    }
+
+    @media (max-width: 768px) {
+      .book-container {
+        flex-direction: column;
+      }
+
+      .book-image,
+      .book-details {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="book-container">
+  <div class="book-image">
+    <img src="5cm.jpg" alt="Buku" width="800" height="400">
+  </div>
+  <div class="book-details">
+    <h2>5 CM</h2>
+    <p><strong>Pengarang:</strong>Dhonny Dhirgantoro</p>
+    <p><strong>Penerbit:</strong>PT Gramedia Widiasarana Indonesia    </p>
+    <p><strong>Jumlah Halaman:</strong> 382 halaman</p>
+    <p class="price">Rp55.000</p>
+
+    <div class="sinopsis">
+      <h3>Sinopsis</h3>
+      <p>Nomor 10 mendatar:Persahabatan; Petualangan.Tiga Huruf:5-C-M.</p>
+      <p>5 cm mengisahkan perjalanan lima sahabat—Arial, Riani (satu-satunya perempuan), Zafran, Ian, dan Genta—yang telah bersama selama tujuh tahun. Di tengah kejenuhan pola hidup mereka, muncul ide untuk berpisah selama tiga bulan tanpa komunikasi. Selama masa ini, masing-masing fokus mengejar mimpi pribadi. Setelah masa perpisahan, mereka reuni dalam sebuah ekspedisi mendaki Gunung Semeru hingga ke puncak Mahameru. Di sana, mereka menancapkan bendera Indonesia dan meneguhkan kembali impian mereka—dengan semangat bahwa hanya ada "jarak 5 cm" antara cita-cita dan kenyataan. Petualangan ini melambangkan semangat persahabatan, nasionalisme, dan keberanian bermimpi</p>
+      
+    </div>
+
+    <a href="#" class="btn">Beli Sekarang</a>
+  </div>
+</div>
+
+</body>
+</html>

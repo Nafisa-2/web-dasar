@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sinopsis</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      padding: 20px;
+    }
+
+    .book-container {
+      display: flex;
+      max-width: 800px;
+      margin: auto;
+      background-color: BlanchedAlmond;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .book-image {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .book-image img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .book-details {
+      flex: 2;
+      padding: 20px;
+    }
+
+    .book-details h2 {
+      margin-top: 0;
+      color: #333;
+    }
+
+    .book-details p {
+      margin: 5px 0;
+      line-height: 1.5;
+      color: #444;
+    }
+
+    .price {
+      color: #0033cc;
+      font-weight: bold;
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    .sinopsis {
+      margin-top: 15px;
+      text-align: justify;
+    }
+
+    .sinopsis h3 {
+      color: #0033cc;
+      margin-bottom: 20px;
+    }
+
+    .sinopsis p {
+      text-align: justify;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #0033cc;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+
+    .btn:hover {
+      background-color: #001f99;
+    }
+
+    @media (max-width: 768px) {
+      .book-container {
+        flex-direction: column;
+      }
+
+      .book-image,
+      .book-details {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="book-container">
+  <div class="book-image">
+    <img src="dunia.jpg" alt="Buku" width="800" height="400">
+  </div>
+  <div class="book-details">
+    <h2>Dunia Melawan Benda-Benda Luar Angkasa</h2>
+    <p><strong>Pengarang:</strong>H.G. Wells </p>
+    <p><strong>Penerbit:</strong> PT Gramedia, Mizan, Kanisius</p>
+    <p><strong>Jumlah Halaman:</strong> 270 halaman</p>
+    <p class="price">Rp115.000</p>
+
+    <div class="sinopsis">
+      <h3>Sinopsis</h3>
+      <p>Nomor 8 mendatar:Invasi Bumi; Survival & Eksistensial.Tiga Puluh Tiga Huruf:D-U-N-I-A-M-E-L-A-W-A-N-B-E-N-D-A-B-E-N-D-A-L-U-A-R-A-N-G-K-A-S-A.</p>
+      <p>Dalam karya klasik fiksi ilmiah dari tahun 1898 ini, H.G. Wells menceritakan invasi Bumi oleh makhluk dari Mars. </p>
+      <p>Fokus cerita adalah pada survival dan kegelisahan eksistensial manusia ketika menghadapi kekuatan alien yang jauh lebih maju—sebuah perenungan tentang posisi manusia dalam alam semesta . </p>
+    </div>
+
+    <a href="#" class="btn">Beli Sekarang</a>
+  </div>
+</div>
+
+</body>
+</html>
